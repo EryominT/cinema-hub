@@ -1,4 +1,7 @@
 # cinema-hub
+## DEMO:
+https://cinema-hub-88bb9.web.app/
+https://cinema-hub-88bb9.firebaseapp.com/
 
 ## Description
 #### Данный проект является демонстрационной версией SPA написанный на VUE3.js (typescript)
