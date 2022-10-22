@@ -1,6 +1,7 @@
 # cinema-hub
-## DEMO:
+## demo:
 https://cinema-hub-88bb9.web.app/
+
 https://cinema-hub-88bb9.firebaseapp.com/
 
 ## Description
