@@ -1,0 +1,57 @@
+:root {
+/*colors*/
+  --color-black: 0, 0, 0;
+  --color-white: rgb(255, 255, 255);
+  --color-white-light: rgb(163, 163, 163);
+  --color-red: rgb(194, 8, 8);
+  --color-yellow: rgb(241, 214, 0);
+  --color-bg-main: rgb(99, 99, 99);
+  --color-bg-main-dark: rgb(68, 68, 68);
+  --color-bg-main-dark-alfa: rgba(68, 68, 68, 0.5);
+  --color-bg-main-middle: rgb(56, 56, 56);
+  --color-bg-main-black: rgb(19, 19, 19);
+  --color-error: rgb(246, 44, 16);
+  --color-border: rgb(128, 128, 128);
+  --color-bg-card: rgb(38, 38, 38);
+  --color-info: rgb(167, 167, 167);
+  --color-rating-green: #6C3;
+  --color-rating-yellow: #FC3;
+  --color-rating-red: #c90000;
+  //--color-skeleton: rgba(219, 219, 219, 1);
+  --color-skeleton: rgba(56, 56, 56, 1);
+
+/*font-family*/
+  --font-main: 'Roboto', sans-serif;
+
+/*indent*/
+  --header-avatar: 45px;
+
+  --indent-xl: 70px;
+  --indent-lg: 40px;
+  --indent-md: 20px;
+  --indent-sm: 10px;
+  --indent-xs: 5px;
+
+/*font-size*/
+  --title-xl: 40px;
+  --title-lg: 32px;
+  --title-md: 26px;
+  --title-sm: 20px;
+
+  --subtitle-xl: 18px;
+
+  --text-xl: 16px;
+  --text-lg: 14px;
+  --text-md: 12px;
+}
+
+/*media*/
+$media-slider-xl: 1440px;
+$media-slider-ld: 1200px;
+$media-slider-md: 900px;
+$media-slider-xs: 640px;
+$media-slider-sm: 400px;
+
+$media-lg: 1024px;
+$media-md: 768px;
+$media-xs: 576px;

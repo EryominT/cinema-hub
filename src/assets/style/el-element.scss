@@ -1,0 +1,171 @@
+@import "./variables";
+
+#app {
+  --el-color-primary: var(--color-yellow);
+  --el-text-color-primary: var(--color-white);
+  --el-input-bg-color: var(--color-bg-main-middle);
+  --el-border-color: transparent;
+  --el-border-color-hover: transparent;
+  --el-alert-bg-color: var(--color-red);
+  --el-color-error: var(--color-white);
+  --el-color-danger:  var(--color-red);
+  --el-color-danger-light-3:  var(--color-red);
+
+  .el-alert--error {
+    --el-alert-bg-color: var(--color-red);
+  }
+
+  .el-dialog {
+    background: var(--color-bg-main-middle);
+    width: 60vw;
+
+    @media (max-width: $media-slider-ld) {
+      top: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .el-tabs__item {
+    font-size: var(--text-xl);
+    color: #fff;
+
+    &:focus.is-active.is-focus:not(:active) {
+      box-shadow: 0 0 2px 2px  var(--color-yellow) inset;
+      border-radius: 3px;
+    }
+
+    &:hover,
+    &.is-active {
+      color: var(--color-yellow);
+    }
+  }
+
+  .el-tabs__active-bar {
+    background-color: var(--color-yellow);
+  }
+
+  [class^=el-input] {
+    input,
+    button,
+    textarea {
+      &:focus-visible {
+        box-shadow: none !important;
+      }
+    }
+  }
+
+  .select-trigger {
+    width: 100%;
+  }
+
+  .el-input-number {
+    width: 100%;
+  }
+
+  .el-input__wrapper {
+    --el-input-bg-color: var(--color-bg-main-middle);
+  }
+
+  .el-input-number__decrease,
+  .el-input-number__increase {
+    background-color: var(--color-bg-main-middle);
+  }
+
+  .el-input-number.is-controls-right {
+    .el-input-number__decrease,
+    .el-input-number__increase {
+      color: var(--color-white);
+      border: none;
+    }
+
+    .el-input__wrapper {
+      padding: 0 30px 0 15px;
+    }
+  }
+
+  .el-checkbox {
+    &__input {
+      &.is-checked .el-checkbox__inner {
+        background-color: transparent;
+      }
+
+      &.is-focus .el-checkbox__inner {
+        border-color: var(--color-yellow);
+      }
+    }
+
+    &__inner {
+      --el-checkbox-bg-color: transparend;
+      border-color: #fff;
+    }
+
+    &__label {
+      color: #fff;
+    }
+  }
+
+  .el-input__inner {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+  }
+
+  .el-button--danger {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    color: var(--el-button-text-color);
+    background-color: var(--el-color-danger);
+    border-color: var(--el-color-danger);
+  }
+}
+
+.el-popper__arrow {
+  display: none;
+}
+
+.el-popper.el-popper.is-light {
+  border: none;
+}
+
+.el-select-dropdown {
+  background-color: var(--color-bg-main-middle);
+}
+
+.el-select-dropdown__item.el-select-dropdown__item {
+  color: #fff;
+}
+
+.el-select-dropdown__item.el-select-dropdown__item.hover,
+.el-select-dropdown__item.el-select-dropdown__item:hover {
+  background-color: var(--color-bg-main);
+}
+
+.el-select-dropdown__item.el-select-dropdown__item.selected {
+  color: var(--color-yellow);
+}
+
+.my-dropdown {
+  right: 0;
+  left: auto !important;
+  max-width: 200px;
+  width: 100%;
+  margin-top: -4px !important;
+  border-radius: 0 !important;
+  color: var(--el-text-color-regular) !important;
+
+  &.el-popper.is-light {
+    background-color: var(--color-bg-main-dark);
+    border-radius: 0;
+    border: none;
+  }
+
+  .el-dropdown-menu {
+    background-color: var(--color-bg-main-dark);
+  }
+
+  .el-popper__arrow {
+    display: none;
+  }
+}
